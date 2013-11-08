@@ -1,5 +1,4 @@
 body {
-background-color: black;
 }
 h1{
   font-family: Georgian;
@@ -70,7 +69,7 @@ footer {
 .buttons {
   /*generalize width to 100%*/
   width: 100%;
-  background-color: #3498db;
+  background-color: #680000;
 }
 
 .buttons li {
@@ -86,7 +85,7 @@ footer {
   text-decoration: none;
 }
 .buttons li:hover {
-  background-color: gray;
+  background-color: grey;
 }
 
 
