@@ -31,12 +31,16 @@ th {
 }
 h1{
   font-family: Georgian;
-  font-size: 26px;
+  font-size: 60px;
   border-bottom: solid;
 }
 h2{
   font-size: 20px;
   padding-top: 5px;
+}
+h1#moma_bear {
+  font-size: 100px;
+  border: none;
 }
 #p#bold{
   padding-top:5px;
