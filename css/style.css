@@ -5,7 +5,8 @@ table {
   width: 100%;
   display: table;
   border-spacing: 2px;
-  border-color: black;;
+  border-color: black;
+  font-family: arial;
 }
 tbody {
   display: table-row-group;
@@ -37,7 +38,6 @@ h1{
 }
 h2{
   font-size: 20px;
-  padding-top: 5px;
 }
 h1#moma_bear {
   font-size: 100px;
@@ -50,9 +50,10 @@ h3{
   font-size: 18px;
 }
 p {
-  font-style: Verdana;
+  padding-left: 15px;
   padding-top: 5px;
   font-size: 15.5px;
+  font-family: arial
 }
 #main {
   margin-top: 30px;
@@ -71,7 +72,6 @@ p {
   width: 960px;
   margin: auto;
   background: #eee;
-
 }
 nav {
   clear: both;
@@ -100,6 +100,8 @@ footer {
   margin-top: 10px;
   margin: auto;
   margin-top: 30px;
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
 #small {
   padding-top: 20px;
@@ -128,4 +130,6 @@ footer {
   background-color: grey;
 }
 
-
+#test {
+font-size: 16px;
+}
