@@ -1,9 +1,9 @@
 body {
   /*restrict website's content to 960px*/
-  margin: auto;
 }
 #main {
   width: 960px;
+  margin: auto;
 }
 li{
   display: inline-block;
