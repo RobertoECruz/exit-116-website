@@ -1,5 +1,5 @@
 body {
-
+background-color: black;
 }
 h1{
   font-family: Georgian;
@@ -46,7 +46,8 @@ li {
 width: 960px;
 margin: auto;
 border: black solid;
-background-color: #eee;
+text-color: white;
+background-color: black;
 }
 
 header {
