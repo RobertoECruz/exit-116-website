@@ -1,7 +1,21 @@
 body {
 
 }
-
+h1{
+  font-family: Georgian;
+  font-size: 26px;
+  border-bottom: solid;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+p {
+  font-style: Verdana;
+  font-size: 15.5px;
+}
 #main {
   clear:both;
 }
@@ -28,14 +42,28 @@ li {
   display: inline-block;
 }
 
+#border{
+width: 960px;
+margin: auto;
+border: black solid;
+background-color: #eee;
+}
+
 header {
   margin-bottom: 10px;
 }
 
 footer {
+  width: 960px;
+  clear: both;
   background: #eee;
   margin-top: 10px;
-  border: solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+#small {
+  padding-top: 20px;
+  padding-left: 155.5px;
 }
 /*add a line for the buttons themselves*/
 .buttons {
