@@ -1,12 +1,24 @@
 body {
-  /*restrict website's content to 960px*/
 }
 #main {
-  width: 960px;
-  margin: auto;
+clear:both;
 }
-li{
-  display: inline-block;
+#first_banner {
+float: left;
 }
-/*apply layout to web pages/style nagivation*/
-
+#connect_buttons {
+float:right;
+}
+.container {
+width: 960px;
+margin: auto;
+}
+nav {
+clear: both;
+}
+li {
+display: inline-block;
+}
+header {
+background: #eee;
+}
