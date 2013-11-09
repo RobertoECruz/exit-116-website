@@ -42,11 +42,9 @@ h2{
 }
 h1#moma_bear {
   border: none;
-  font-size: 80px;
-  font-family: Verdana;
-  border: none;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  background: url(exit116.jpg) no-repeat;
+  clear:both;
+  background-color: #eee;
 }
 #p#bold{
   padding-top:5px;
@@ -143,6 +141,9 @@ footer {
   text-decoration: none;
 }
 .buttons li:hover {
+  background-color: grey;
+}
+.buttons li:visited {
   background-color: grey;
 }
 
