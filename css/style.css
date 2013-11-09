@@ -43,14 +43,18 @@ h2{
 }
 #moma_bear {
   border: none;
-  background: url(exit116.jpg) no-repeat;
+  /*background: url(exit116.jpg) no-repeat;*/
   clear:both;
-  background-color: #eee;
+  /*background-color: #eee;*/
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 72px;
+  padding-top: 80px;
 }
 #moma_bear a{
+  color: white;
+  background-color: rgba(20, 20, 20, 0.6);
+  width: inherit;
   text-decoration: none;
 }
 #p#bold{
@@ -60,6 +64,7 @@ h2{
   float: left;
   padding-top: 6px;
   margin: 0px;
+  color: white;
 }
 h3{
   font-size: 18px;
@@ -78,11 +83,19 @@ p {
 }
 
 #first_banner {
+  background-image: url('../festival.jpg');
+  background-position:center;
+  min-height: 220px;
 }
 
 #connect_buttons {
+  margin: 5px;
+  margin-top: 16px;
   float:right;
   display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 5px;
 }
 
 .container {
@@ -108,10 +121,10 @@ li {
 }
 
 #border{
-width: 960px;
-margin: auto;
-text-color: white;
-background-color: black;
+  width: 960px;
+  margin: auto;
+  color: white;
+  background-color: black;
 }
 
 header {
@@ -164,7 +177,7 @@ footer {
 }
 
 #test {
-font-size: 16px;
+  font-size: 16px;
 }
 
 a:visited {
@@ -174,4 +187,3 @@ a:visited {
 aside ul li{
   padding-left: 15px;
 }
-
