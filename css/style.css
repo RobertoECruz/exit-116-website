@@ -1,5 +1,6 @@
 body {
-background-color: white;
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
 }
 table {
   border-collapse: collapse;
@@ -33,18 +34,24 @@ th {
   padding-bottom: 5px;
 }
 h1{
-  font-family: Georgian;
+  font-family: Arial, sans-serif;
   font-size: 60px;
   border-bottom: solid;
 }
 h2{
   font-size: 20px;
 }
-h1#moma_bear {
+#moma_bear {
   border: none;
   background: url(exit116.jpg) no-repeat;
   clear:both;
   background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 72px;
+}
+#moma_bear a{
+  text-decoration: none;
 }
 #p#bold{
   padding-top:5px;
@@ -66,10 +73,11 @@ p {
 #main {
   margin-top: 30px;
   clear:both;
+  padding: 15px;
+  width: 930px;
 }
 
 #first_banner {
-  float: left;
 }
 
 #connect_buttons {
@@ -85,6 +93,12 @@ p {
   -webkit-box-shadow: 0 0 5px#888;
   box-shadow: 0 0 5px #888;
 }
+
+.copyright {
+  width: 960px;
+  text-align: center;
+}
+
 nav {
   clear: both;
 }
@@ -130,13 +144,15 @@ footer {
 
 .buttons li {
   /*give them some space from the exit title*/
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
   /*spead width amongst buttons*/
-  width: 20%;
+  width: 237px;
 }
 
-.buttons li a {
-  font-family: arial;
+.buttons li a, .buttons a li {
+  font-family: Arial, sans-serif;
   color: white;
   text-decoration: none;
 }
